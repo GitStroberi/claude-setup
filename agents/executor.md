@@ -1,6 +1,6 @@
 ---
 name: executor
-description: Implements one bounded, fully specified chunk of work (Sonnet). Use only for independent pieces that can run in parallel with other work; otherwise the main session implements directly.
+description: Implements one bounded, fully specified chunk of work (Sonnet). Use for chunks that are independent of other work or bulky and mechanical; the main session implements sequential, subtle or small changes itself.
 model: sonnet
 tools: Read, Edit, Write, Bash, Grep, Glob
 ---
